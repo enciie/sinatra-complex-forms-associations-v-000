@@ -16,7 +16,7 @@
     name="pet[owner_id]"
     value="<%=owner.id%>"
     id="<%=owner.id%>"
-    <%='checked' if @pet.owner.name == owner.name %>>
+    <%='checked' if @pet.owner.id == owner.id %>>
     <%=owner.name%></input>
   <%end%>
 
